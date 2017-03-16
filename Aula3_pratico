@@ -35,3 +35,44 @@ int main () {
 		e) Mesma resposta da letra "c".
 		f) Cria um arquivo ola.txt escrito Ola mundo cruel!
 		
+4 		#include <stdio.h>
+		#include <stdlib.h>
+void main(int argc, char *argv[]) {
+
+			printf ("Ola %s\n", argv[1]);
+			          }
+
+5 a) Mostra somente o primeiro nome
+  b) Mostra tudo que está entre as aspas.
+  c) Ola (null)
+  d) Ola (null)
+  e) Ola (null)
+  f) Ola (null)
+  
+
+6 
+#include <stdio.h>
+#include <stdlib.h>
+
+void main(int argc, char *argv[]) {
+
+	printf ("Ola %s\n", argv[1]);
+	printf ("Numero de entradas = %d\n", argc);
+}
+
+7#include <stdio.h>
+#include <stdlib.h>
+
+void main(int argc, char *argv[]) {
+int i;
+
+	for (i=1;i<argc;i++) {
+
+		printf ("Argumentos: %s\n", argv[i]);
+}
+	 
+}
+
+
+
+8 
