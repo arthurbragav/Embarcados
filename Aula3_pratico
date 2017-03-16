@@ -1,0 +1,37 @@
+1 	
+#include <stdio.h>
+
+int main () {
+
+		printf ("Ola mundo!\n");
+		return 0;
+	    }
+
+	$ gcc Aula3.c -o Aula3_teste
+	$gcc -c Aula3.c
+	$./Aula3_teste
+
+2	# include <stdio.h>
+	#include <stdlib.h>
+
+int main () {
+		char nome[20];
+		printf ("Digite o seu nome: ");
+		scanf ("%s", nome);
+		printf ("Ola %s\n", nome);
+		return 0;
+	
+
+            }
+	$ gcc Aula3_2.c -o Aula3_2_1
+	$ gcc -c Aula3_2.c
+	$./Aula3_2_1
+
+
+3		a) Só mostra o primeiro nome.
+		b) Só mostra o primeiro nome, antecedido por ".
+		c) Não mostra o nome após o "Digite o seu nome", somente "Ola" e depois o nome.
+		d) Mesma resposta da letra "c".
+		e) Mesma resposta da letra "c".
+		f) Cria um arquivo ola.txt escrito Ola mundo cruel!
+		
