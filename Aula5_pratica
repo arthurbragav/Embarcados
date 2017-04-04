@@ -1,0 +1,60 @@
+1. #include <stdio.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int main(int argc, const char * argv[])
+{
+	int fp, i;
+	char string[100]= "Ola mundo!";
+
+	fp = open ("Aula5.1.txt", O_WRONLY | O_CREAT, S_IRWXU);
+	if(fp==-1)
+	{
+		printf ("Erro na abertura do arquivo.\n");
+		exit (1);
+	}
+		gets(string);
+	for(i=0; string[i]; i++)
+		write(fp, &(string[i]), 1); // Grava a string, caractere a caractere	
+	write(fp, "\n", 1);
+	close(fp);
+
+	return 0;
+}
+
+2 #include <stdio.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int main(int argc, const char * argv[])
+{
+	int fp, i;
+	char string[100];
+	char string2 [100];
+
+	fp = open ("Aula5.1.txt", O_WRONLY | O_CREAT, S_IRWXU);
+	if(fp==-1)
+	{
+		printf ("Erro na abertura do arquivo.\n");
+		exit (1);
+	}
+		printf ("Digite o seu nome: ");
+		gets(string);
+		printf ("Digite a sua idade: ");
+		gets(string2);
+
+	write(fp, "Nome: ", 6);
+	for(i=0; string[i]; i++)
+		write(fp, &(string[i]), 1); // Grava a string, caractere a caractere	
+	write(fp, "\n", 1);
+	write(fp, "Idade: ", 7*sizeof(char));
+	for(i=0; string2[i]; i++)
+		write(fp, &(string2[i]), 1); // Grava a string, caractere a caractere	
+	write(fp, "\n", 1);
+
+	close(fp);
+
+	return 0;
+}
