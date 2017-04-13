@@ -28,12 +28,12 @@ int main () {
 	$./Aula3_2_1
 
 
-3		a) Só mostra o primeiro nome.
-		b) Só mostra o primeiro nome, antecedido por ".
-		c) Não mostra o nome após o "Digite o seu nome", somente "Ola" e depois o nome.
+3		a) Ola Eu
+		b) Ola "Eu
+		c) Ola eu 
 		d) Mesma resposta da letra "c".
 		e) Mesma resposta da letra "c".
-		f) Cria um arquivo ola.txt escrito Ola mundo cruel!
+		f) Ola Ola
 		
 4 		#include <stdio.h>
 		#include <stdlib.h>
@@ -60,15 +60,16 @@ void main(int argc, char *argv[]) {
 	printf ("Numero de entradas = %d\n", argc);
 }
 
-7#include <stdio.h>
+7
+#include <stdio.h>
 #include <stdlib.h>
 
 void main(int argc, char *argv[]) {
 int i;
-
+       printf ("Argumentos: ");
 	for (i=1;i<argc;i++) {
 
-		printf ("Argumentos: %s\n", argv[i]);
+		printf ("%s ", argv[i]); 
 }
 	 
 }
@@ -86,3 +87,5 @@ contador++;
 return contador;
 
 }
+
+Compilar: gcc -c num_caracs.c (arquivo.o)

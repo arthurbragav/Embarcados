@@ -1,14 +1,6 @@
-1 >Ola_mundo.txt
-vim Ola_mundo.txt
-Digitar Ola mundo cruel!
-Tecla esc
-:x
-cat Ola_mundo.txt
+1 echo "mensagem" >nome do arquivo
 
-2 su
-Digitar senha
-cd /root
-ls
+2 ls /
 
 3 su
 Digitar senha
@@ -16,10 +8,7 @@ cd /root
 ls
 file <nome do arquivo>
 
-4 su
-Digitar senha
-cd /root
-ls -d */
+4 ls -d */
 
 5 date -d "04/26/2007"
 date -d "04/26/2008"
@@ -41,10 +30,10 @@ date -d "04/26/2017"
 
 9 ls *.gif
 
-10 grep -i cal
+10 ls | grep -i cal
 
-11 grep -i tux
+11 ls | grep tux
 
-12 grep -i tux*
+12 ls | grep tux*
 
 

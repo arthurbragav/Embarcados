@@ -1,0 +1,52 @@
+O que são sistemas embarcados ?
+
+R: São sistemas que unem hardware e software para aplicações específicas.
+
+O que são sistemas microprocessados?
+
+R: São sistemas que possuem um microprocessador capaz de resolver problemas através das instruções que lhe forem dadas.
+
+Aplicações de sistemas embarcados:
+
+- Automotiva: 
+R: Para a industria automotiva, existem diversas aplicações de sistemas embarcados, como por exemplo: 
+- Alarme do veículo
+- Sistema de GPS e Navegação
+- Controles do motor e injeção eletrônica
+- Controle de tração
+- Painel de instrumentos
+- Controle de transmissão
+- Freios ABS
+- Airbag
+
+- Eletrodomésticos:
+
+R: Para eletrodomésticos, a grande maioria possui um sistema embarcado controlando seu funcionamento, como por exemplo:
+- Microondas
+- Maquina de lavar roupa
+- Maquina de lavar louça
+- Televisões
+- Blu-ray
+- Media centers
+
+- Automação industrial:
+
+Sistemas embarcados são cada vez mais presentes no meio industrial uma vez que as fábricas estão se tornando mais automatizadas. Podemos perceber a presença de sistemas embarcados nos seguintes exemplos:
+
+- CLP para comando de linhas de produção;
+- Automação para comando da iluminação/exaustão
+- Máquinas de corte
+- Máquinas de furos
+
+entre muito mais.
+
+Arquiteturas possíveis e diferenças entre elas:
+R: As duas principais arquiteturas utilizadas são a RISC e CISC.
+Como as arquiteturas RISC visam Unidades de Controle mais simples, rápidas e baratas, elas geralmente optam por instruções mais simples possível, com pouca variedade e com poucos endereços. A pouca variedade dos tipos de instrução e dos modos de endereçamento, além de demandar uma Unidade de Controle mais simples, também traz outro importante benefício, que é a previsibilidade. Como as intrusões variam pouco de uma para outra, é mais fácil para a Unidade de Controle prever quantos ciclos serão necessários para executa-las. Esta previsibilidade traz benefícios diretos para o ganho de desempenho. Ao saber quantos ciclos serão necessários para executar um estágio de uma instrução, a Unidade de Controle saberá exatamente quando será possível iniciar o estágio de uma próxima instrução.
+Já as arquiteturas CISC investem em Unidades de Controle poderosas e capazes de executar tarefas complexas como a Execução Fora de Ordem.
+
+Por quê utilizamos o Raspberry Pi na disciplina ao invés de outro sistema on chip?
+R: Principalmente pelo baixo custo, tamanho pequeno e por possuir conexão direta com monitores. Além disso, atende toda a necessidade da disciplina.
+
+
+
