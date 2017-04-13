@@ -1,0 +1,91 @@
+1 	
+#include <stdio.h>
+
+int main () {
+
+		printf ("Ola mundo!\n");
+		return 0;
+	    }
+
+	$ gcc Aula3.c -o Aula3_teste
+	$gcc -c Aula3.c
+	$./Aula3_teste
+
+2	# include <stdio.h>
+	#include <stdlib.h>
+
+int main () {
+		char nome[20];
+		printf ("Digite o seu nome: ");
+		scanf ("%s", nome);
+		printf ("Ola %s\n", nome);
+		return 0;
+	
+
+            }
+	$ gcc Aula3_2.c -o Aula3_2_1
+	$ gcc -c Aula3_2.c
+	$./Aula3_2_1
+
+
+3		a) Ola Eu
+		b) Ola "Eu
+		c) Ola eu 
+		d) Mesma resposta da letra "c".
+		e) Mesma resposta da letra "c".
+		f) Ola Ola
+		
+4 		#include <stdio.h>
+		#include <stdlib.h>
+void main(int argc, char *argv[]) {
+
+			printf ("Ola %s\n", argv[1]);
+			          }
+
+5 a) Mostra somente o primeiro nome
+  b) Mostra tudo que está entre as aspas.
+  c) Ola (null)
+  d) Ola (null)
+  e) Ola (null)
+  f) Ola (null)
+  
+
+6 
+#include <stdio.h>
+#include <stdlib.h>
+
+void main(int argc, char *argv[]) {
+
+	printf ("Ola %s\n", argv[1]);
+	printf ("Numero de entradas = %d\n", argc);
+}
+
+7
+#include <stdio.h>
+#include <stdlib.h>
+
+void main(int argc, char *argv[]) {
+int i;
+       printf ("Argumentos: ");
+	for (i=1;i<argc;i++) {
+
+		printf ("%s ", argv[i]); 
+}
+	 
+}
+
+
+
+8 #include <stdio.h>
+#include "num_caracs.h"
+int Num_Caracs(char *string)
+{
+int contador=0;
+while(string[contador]!='\0')
+contador++;
+
+return contador;
+
+}
+
+Compilar: gcc -c num_caracs.c (arquivo.o)
