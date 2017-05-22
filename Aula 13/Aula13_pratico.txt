@@ -10,6 +10,7 @@ Raspbian, porque é um sistema "padrão" para quem está tendo o primeiro contat
 Via SD card. Primeiramente, deve-se baixar o sistema operacional no forma .zip no site <https://www.raspberrypi.org/downloads/noobs/>. Então, após o download, esse arquivo deve ser descompactado. Todos os arquivos presentes devem ser copiados para um cartão de memória de no mínimo 4Gb. Feito isso, o cartão deve ser inserido na raspberry, e ela deve ser ligada à fonte e a um monitor, para proceder com a instalação. Então, deve-se selecionar o Raspnian e instalar.
 
 4. Defina de qual forma você desenvolverá software para o Raspberry Pi no projeto desta disciplina. Escreva o passo-a-passo do desenvolvimento e forneça os links necessários para isto.
+Código em C usando a biblioteca WiringPi
 
 
 
